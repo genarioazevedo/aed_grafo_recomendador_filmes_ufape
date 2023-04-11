@@ -84,14 +84,14 @@ public class Grafo {
         filaFilmes.addAll(indicacoes.keySet());
 
         // Retorna os 5 filmes com a maior média ponderada das pontuações
-        Map<Filme, Double> top5Filmes = new HashMap<>();
-        while (top5Filmes.size() < 5 && !filaFilmes.isEmpty()) {
+        Map<Filme, Double> topFilmes = new HashMap<>();
+        while (topFilmes.size() < 5 && !filaFilmes.isEmpty()) {
             Filme filme = filaFilmes.poll();
             if (!usuario.getFilmesAssistidos().containsKey(filme)) {
-                top5Filmes.put(filme, indicacoes.get(filme));
+                topFilmes.put(filme, indicacoes.get(filme));
             }
         }
-        return top5Filmes;
+        return topFilmes;
         }
 
     public int getPesoRelacao(Usuario origem, Usuario destino) {
