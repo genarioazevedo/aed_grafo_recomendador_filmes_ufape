@@ -89,10 +89,10 @@ public class App {
 
     
             // Obtenção das indicações de filmes para um determinado usuário
-            Map<Filme, Double> indicacoes = grafo.obterIndicacoes(usuario8);
+            Map<Filme, Double> indicacoes = grafo.obterIndicacoes(usuario3);
     
         // Impressão das indicações de filmes
-        System.out.println("Indicações de filmes para " + usuario8.getNome() + ":");
+        System.out.println("Indicações de filmes para " + usuario3.getNome() + ":");
         for (Filme filme : indicacoes.keySet()) {
             double pontuacao = indicacoes.get(filme);
             System.out.println(filme.getTitulo() + " - Pontuação: " + pontuacao + " estrelas");
