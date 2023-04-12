@@ -2,13 +2,15 @@
 
 Para execução do programa, devem instanciar na classe APP os seguintes objetos:
 
--Instanciar um objeto da classe Filme, é necessário passar os parâmetros do construtor na seguinte ordem: título do filme (String), gênero do filme (String), ano de lançamento do filme (int), lista de atores do filme (List<String>) e nota do filme (double).
+-Objetos da classe Filme, é necessário passar os parâmetros do construtor na seguinte ordem: título do filme (String), gênero do filme (String), ano de lançamento do filme (int), lista de atores do filme (List<String>) e nota do filme (double).
 
--Instanciar um objeto da classe Usuario, é necessário passar os parâmetros do construtor na seguinte ordem: nome do usuário (String) e idade do usuário (int). Deve ser chamado o método assistirFilme().
+-Objetos da classe Usuario, é necessário passar os parâmetros do construtor na seguinte ordem: nome do usuário (String) e idade do usuário (int). Deve ser chamado o método assistirFilme().
 
--Instanciar um objeto da classe Grafo, é necessário apenas chamar o construtor padrão da classe. Devem serem chamados os métodos adicionarUsuario(), adicionarRelacao() e obterIndicacao().
+-Objetos da classe Grafo, é necessário apenas chamar o construtor padrão da classe. Devem serem chamados os métodos adicionarUsuario(), adicionarRelacao() e obterIndicacao() para obtenção das indicações de filmes para um determinado usuário.
 
 -Impressão das indicações de filmes
+
+## ---------------------------------------------------------------------------------------------------------------------------------
 
 ## Getting Started
 
