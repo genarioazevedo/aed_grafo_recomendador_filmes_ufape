@@ -1,3 +1,5 @@
+Sistema personalizado de recomendação de filmes baseado em uma técnica de filtragem colaborativa e um grafo implementado em Java. O gráfico consiste em uma lista de usuários e uma lista de relações entre eles, sendo que cada usuário possui um nome, idade e uma lista de filmes que assistiu com suas respectivas pontuações. O sistema calcula a pontuação média de cada filme e retorna uma lista de recomendações com base nas pontuações mais altas. A técnica de filtragem colaborativa usada neste sistema identifica padrões de interesse entre os usuários e recomenda itens com base em suas opiniões e comportamentos anteriores, em vez de confiar apenas nas informações sobre os próprios filmes. O sistema também utiliza um grafo para localizar vizinhos de primeiro e segundo grau e sugerir filmes relacionados aos interesses do usuário, mesmo que nunca tenham assistido a esses filmes antes. O código é implementado em quatro classes, incluindo Usuario, Relacao, Grafo e Filme, sendo a classe App responsável pela execução do código. 
+
 ## Instruções para uso do Programa:
 
 Para execução do programa, devem instanciar na classe APP os seguintes objetos:
